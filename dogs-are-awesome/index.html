@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>First Website</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div id="avatar">
+            <img src="images/portrait.jpg">
+        </div>
+        <div id="content">
+            <h1>Dogs are better than cats</h1>
+            <p>
+                Cats are hardly okay (Being really politically correct)
+            </p>
+            <p>
+                Dogs are awesome!
+            </p>
+        </div>
+    </body>
+    <script>
+        document.onmousemove = function(event){
+            document.body.style.backgroundPosition = ((event.pageX * -1) / 20)+"px "+((event.pageY * -1) / 20)+"px";
+        };
+    </script>
+</html>

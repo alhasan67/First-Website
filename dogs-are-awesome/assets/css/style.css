@@ -1,0 +1,22 @@
+
+*{
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+::selection{
+    background: #d3d3d3;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(../../images/wallpaper.jpg);
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+#avatar img{
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 5%;
+}
